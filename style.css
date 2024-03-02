@@ -1,0 +1,58 @@
+@media (max-width: 720px) {
+    body {
+        background-color: white;
+
+    }
+
+    .logo {
+        width: 150px;
+        height: 150px;
+    }
+
+    h1 {
+        margin: 0;
+        margin-bottom: 20px;
+        font-size: 1.1rem;
+        font-family: "Noto Sans", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: normal;
+        font-variation-settings:
+            "wdth" 100;
+    }
+
+    
+
+    .container {
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .flex-item {
+        background-color: #eb7a20;
+        color: white;
+        width: 350px;
+        margin-bottom: 25px;
+        padding: 10px;
+        border-radius: 10px;
+        font-size: 1rem;
+        font-family: "Noto Sans", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: normal;
+        font-style: normal;
+        font-variation-settings:
+            "wdth" 100;
+    }
+
+    a {
+        text-decoration: none;  
+    }
+
+    a :hover {
+        background-color: green;
+    }
+
+}
